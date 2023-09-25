@@ -1,0 +1,1 @@
+This file enables the folder 'temp' to be in git, as git cannot have empty folders
