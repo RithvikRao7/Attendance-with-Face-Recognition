@@ -7,7 +7,6 @@ import face_recognition as fr
 core_working_directory = os.path.dirname(os.path.realpath(__file__))
 database_working_directory = os.path.dirname(core_working_directory) + "\\faceData"
 presentee_working_directory = os.path.dirname(core_working_directory) + "\\temp"
-
 if len(os.listdir(database_working_directory + "\\images")) == 0:
     os.system("start /min cmd /c python \"" + core_working_directory +  "\\DatabaseEmpty.py\"")
 
